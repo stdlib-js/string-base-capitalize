@@ -31,6 +31,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import capitalize from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-capitalize@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-base-capitalize/tags). For example,
+
+```javascript
 import capitalize from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-capitalize@v0.0.2-deno/mod.js';
 ```
 
@@ -57,7 +62,7 @@ out = capitalize( 'Hidden Treasures' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import capitalize from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-capitalize@v0.0.2-deno/mod.js';
+import capitalize from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-capitalize@deno/mod.js';
 
 var str = capitalize( 'last man standing' );
 // returns 'Last man standing'
