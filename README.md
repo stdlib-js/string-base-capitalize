@@ -31,7 +31,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import capitalize from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-capitalize@deno/mod.js';
+import capitalize from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-capitalize@v0.0.2-deno/mod.js';
 ```
 
 #### capitalize( str )
@@ -57,7 +57,7 @@ out = capitalize( 'Hidden Treasures' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import capitalize from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-capitalize@deno/mod.js';
+import capitalize from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-capitalize@v0.0.2-deno/mod.js';
 
 var str = capitalize( 'last man standing' );
 // returns 'Last man standing'
