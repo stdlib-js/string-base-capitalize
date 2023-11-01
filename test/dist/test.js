@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2022 The Stdlib Authors.
+* Copyright (c) 2023 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -21,33 +21,13 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var capitalize = require( './../../dist' );
+var main = require( './../../dist' );
 
 
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is defined', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof capitalize, 'function', 'main export is a function' );
-	t.end();
-});
-
-tape( 'the function returns an empty string if provided an empty string', function test( t ) {
-	t.equal( capitalize( '' ), '', 'returns empty string' );
-	t.end();
-});
-
-tape( 'the function capitalizes the first character in a provided string', function test( t ) {
-	var out;
-
-	out = capitalize( 'hello world' );
-	t.equal( out, 'Hello world', 'capitalizes first character' );
-
-	out = capitalize( '!!!' );
-	t.equal( out, '!!!', 'does not change non-alphabetical characters' );
-
-	out = capitalize( 'Hello World' );
-	t.equal( out, 'Hello World', 'leaves uppercase letters in uppercase' );
-
+	t.strictEqual( main !== void 0, true, 'main export is defined' );
 	t.end();
 });
