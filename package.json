@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/string-base-capitalize",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Capitalize the first character in a string.",
   "license": "Apache-2.0",
   "author": {
