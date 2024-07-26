@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import capitalize from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-capitalize@esm/index.mjs';
+import capitalize from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-capitalize@v0.3.0-esm/index.mjs';
 ```
 
 #### capitalize( str )
@@ -73,7 +73,7 @@ out = capitalize( 'Hidden Treasures' );
 <body>
 <script type="module">
 
-import capitalize from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-capitalize@esm/index.mjs';
+import capitalize from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-capitalize@v0.3.0-esm/index.mjs';
 
 var str = capitalize( 'last man standing' );
 // returns 'Last man standing'
