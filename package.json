@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/string-base-capitalize",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Capitalize the first character in a string.",
   "license": "Apache-2.0",
   "author": {
@@ -74,7 +74,6 @@
     "upper",
     "case"
   ],
-  "__stdlib__": {},
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
